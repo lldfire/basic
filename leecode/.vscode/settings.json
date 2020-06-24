@@ -19,4 +19,5 @@
     "editor.rulers": [72, 80],
     "editor.wordWrap": "bounded",
     "git.ignoreLimitWarning": true,
+    "python.languageServer": "Microsoft",
 }
