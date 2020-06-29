@@ -35,6 +35,6 @@ class Solution:
         return step
 
 
-nums = [2, 3, 1, 1, 4, 1, 2, 3, 3]
-print(Solution().jump(nums))
+# nums = [2, 3, 1, 1, 4, 1, 2, 3, 3]
+# print(Solution().jump(nums))
 # @lc code=end
