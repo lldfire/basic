@@ -1,6 +1,8 @@
-{   "python.autoComplete.extraPaths": [
+{
+    "python.autoComplete.extraPaths": [
         "C:\\Users\\86132\\AppData\\Local\\Programs\\Python\\Python37\\Lib\\site-packages",
-        "C:\\Users\\86132\\AppData\\Local\\Programs\\Python\\Python37\\Scripts"],
+        "C:\\Users\\86132\\AppData\\Local\\Programs\\Python\\Python37\\Scripts"
+    ],
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
     "python.linting.flake8Enabled": true,
     "python.formatting.provider": "autopep8",
@@ -10,14 +12,17 @@
     ],
     "python.formatting.autopep8Path": "autopep8",
     "python.linting.pylintEnabled": false,
-    "python.jediEnabled": false,
+    "python.jediEnabled": true,
     "editor.fontLigatures": true,
     "editor.fontSize": 15,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 5000,
     "editor.wordWrapColumn": 80,
-    "editor.rulers": [72, 80],
+    "editor.rulers": [
+        72,
+        80
+    ],
     "editor.wordWrap": "bounded",
     "git.ignoreLimitWarning": true,
-    "python.languageServer": "Microsoft",
+    "python.languageServer": "Jedi",
 }

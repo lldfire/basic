@@ -86,7 +86,7 @@ class Solution:
         stack = []
         curr = 0
         while curr < lens:
-            # 栈不空，且当前元素大于栈顶（栈中最后一个元素）元素
+            # 栈不空，且当前元素大于栈顶（栈中最后一个元素）元素，说明可以接雨水
             while len(stack) != 0 and height[curr] > height[stack[-1]]:
                 # 将要出栈的元素
                 h = height[stack.pop()]
@@ -129,8 +129,5 @@ class Solution:
 #                 right -= 1
 #         return res
 
-
-height = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
-print(Solution().trap(height))
 
 # @lc code=end
